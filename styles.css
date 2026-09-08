@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    background: green;
+}
+/* center the div container of the elements using flex box centering*/
+#elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+@font-face {
+    src: url("Solar_Bold.ttf");
+    font-family: "Solar_bold";
+}
+#Heading{
+    font-family: Solar_bold;
+    font-size: 50px;
+    color: goldenrod;
+    text-shadow: 0px 0px 1px goldenrod;
+}
+#count{
+    font-weight: bold;
+    font-size: 70px;
+    padding:20px;
+}
+#increase-btn{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/*center the buttons using flex box centering*/
+#btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+#save-btn{
+     padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#entry{
+    font-weight: bold;
+    margin-top: 40px;
+}
